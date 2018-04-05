@@ -1,0 +1,9 @@
+# xem noi dung file passwd
+$ cat /etc/passwd
+
+# Di chuyen 
+$ touch mypassword.txt
+$ cat /etc/passwd > /home/kiennt/Documents/Linux/BaiTapLinux/bai3/mypassword.txt 
+
+
+
