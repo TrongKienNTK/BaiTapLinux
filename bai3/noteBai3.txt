@@ -5,5 +5,14 @@ $ cat /etc/passwd
 $ touch mypassword.txt
 $ cat /etc/passwd > /home/kiennt/Documents/Linux/BaiTapLinux/bai3/mypassword.txt 
 
+#Dung head xem 3 user dau
+$ head -3 mypassword.txt
+#Dung tail xem 3 user cuoi
+$ tail -3 mypassword.txt
 
+
+#wc
+$ wc mypassword.txt 
+  43   93 2307 mypassword.txt
+# 43 dong.
 

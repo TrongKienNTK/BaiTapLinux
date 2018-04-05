@@ -1,0 +1,35 @@
+#1
+$ cd /etc/init.d
+#pwd: hiển thị directory hiện hành
+#pwd -P: hiển thị directory hiện hành bỏ qua symlinks
+
+#2
+$ cd / && pwd && cd -P /etc/init.d && pwd && cd
+chuyển tới thư mục / và hiển thị thư mục hiện hành và di chuyển tới /etc/init.d (bỏ qua symlinks tới thẳng thư mục gốc) sau đó hiển thị thư mục hiện hành, cuối cùng chuyển về home...
+
+$ cd / && pwd && cd -L /etc/init.d && pwd && cd ~
+
+chuyển tới thư mục / và hiển thị thư mục hiện hành và di chuyển tới /etc/init.d (theo symlinks) sau đó hiển thị thư mục hiện hành, cuối cùng chuyển về home...
+
+
+#3
+$ cd /etc
+
+#4, 5
+- ls: liệt kê danh sách file trong thư mục
+- ls -i: liệt kê file kèm chỉ số
+- ls -l: liệt kê ds file hiển thị theo danh sách theo định dạng danh sách dài
+- ls -a: liệt kê tất cả file trong thư mục, kể cả file ẩn
+- ls -ila: tổng hợp 3 tùy chọn trên trong 1 lệnh
+
+#6
+While (Trắng): tệp tin 
+Blue (Xanh da trời): Thư mục
+Green (Xanh lá): Tệp dữ liệu thực thi hoặc được công nhận
+Sky Blue (Xanh da trời nhạt): Symbolic link
+Yellow with black background: Device
+Pink: Graphic image file
+Red: Archive file
+Red with black background: Broken link
+
+
