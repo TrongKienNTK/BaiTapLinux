@@ -27,9 +27,9 @@ While (Trắng): tệp tin
 Blue (Xanh da trời): Thư mục
 Green (Xanh lá): Tệp dữ liệu thực thi hoặc được công nhận
 Sky Blue (Xanh da trời nhạt): Symbolic link
-Yellow with black background: Device
+Yellow with black background: Thiết bị ngoại vi
 Pink: Graphic image file
-Red: Archive file
-Red with black background: Broken link
+Red: file nén 
+Red with black background: Liên kết bị hỏng
 
 

@@ -1,0 +1,124 @@
+#Cau 1
+$HOME
+
+#Cau 2
+cd ../../etc
+
+#Cau 3
+cd /urs/lib
+
+#Cau 4
+ls -a $HOME
+
+#Cau 5
+ls -aR $HOME
+
+#Cau 6
+
+alias lietke = "ls -l"
+lietke
+
+#Cau 7
+alias lietke = "ls -l > home.list"
+
+#Cau 8
+mv home.list homelist.txt
+
+#Cau 9
+mkdir $HOME/linux2002
+
+#Cau 10
+cp homelist.txt $HOME/linux2002
+
+#Cau 11
+ls -la /etc/[bkn]*
+
+#Cau 12
+ls -la /etc/[m-t]*
+
+#Cau 13
+ls -la /etc/?h*
+
+#Cau 14
+ls -la /etc/*a
+
+#Cau 15
+ls -p /etc/[ad-e]*
+
+#Cau 16
+touch $HOME/-myfile
+
+#Cau 17
+rm $HOME/-myfile
+
+#Cau 18
+cd $HOME/linux2002/
+touch hello hello1 helloABC
+ls -l home
+ls -l home?
+ls -l home*
+
+#Cau 19
+ls -r /boot > $HOME/bootlist.txt
+
+#Cau 20
+grep sv /etc/passwd
+
+#Cau 21
+grep /bin/bash /etc/passwd
+
+#Cau 22
+grep -v /bin/false /etc/passwd
+
+#Cau 23
+#rwxr-xr-x: 755: Owner(Read, Write, Execute) - Group(Read, Execute) - Other(Read, Execute)
+#r-xrwxrw-: 576: Owner(Read, Execute) - Group(Read, Write, Execute) - Other(Read, Write)
+#rw-r--r--: 644: Owner(Read, Write) - Group(Read) - Other(Read)
+
+#Cau 24
+chmood 640 $HOME/*.ttf
+
+#Cau 25
+
+#Báo lỗi Access Deny, không có quyền truy cập
+#Nếu không quyền thực thi thì người dùng không thể truy cập vào thư mục
+
+#Cau 27
+cat /etc/services|tail -n20
+cat /etc/services|head -n20
+
+#Cau 28
+who
+
+#Cau 29
+tar -cvf linux2002.tar.gz $HOME/linux2002
+
+#Cau 30
+
+#clear: Xóa màn hình console
+#........
+
+#cut: Xuất ra các trường hoặc cột cụ thể:
+#cut -f FIELD_LIST filename
+#Trong đó:
+#FIELD_LIST là 1 danh sách các cột được hiển thị. Danh sách này chứa các số cột được phân cách bởi dấu phẩy “,”.
+#........
+
+#uniq: Loại bỏ các dòng chữ giống và kề nhau
+# uniq {tên tệp}
+#.......
+
+#tr: Chuyển đổi các ký tự. 
+#tr {mẫu-1} {mẫu-2}​
+#Ví dụ sau sẽ chuyển đổi a thành 1 và * thành b
+#$ tr "a*" "1b" < filename​
+#Ví dụ sau sẽ chuyển đổi chữ thường thành chữ hoa:
+#$ tr "[a-z]" "[A-Z]" < filename​
+
+
+
+
+
+
+
+
