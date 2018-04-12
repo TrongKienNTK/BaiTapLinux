@@ -1,0 +1,16 @@
+#1
+wc -w {tên file}
+
+#2
+wc -l {tên file}
+
+#3
+wc -c {tên file}
+
+#4
+cd usr/bin
+ls --sort=size 
+ls --sort=size -r
+
+#5
+ls <file> | wc -l
