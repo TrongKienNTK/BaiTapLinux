@@ -1,34 +1,7 @@
 #Python 3.6.x
-class Khoa:
-    def __init__(self, maKhoa, tenKhoa):
-        self.maKhoa = maKhoa
-        self.tenKhoa = tenKhoa
-    def getMaKhoa(self):
-        return self.maKhoa
-    def setMaKhoa(self, maKhoa):
-        self.maKhoa = maKhoa
-    def getTenKhoa(self):
-        return self.tenKhoa
-    def setTenKhoa(self, tenKhoa):
-        self.tenKhoa = tenKhoa
-    def xuat(self):
-        print(self.maKhoa + "\t\t" + self.tenKhoa)
 
-class SinhVien(Khoa): 
-    def __init__(self, mssv, hoTen, maKhoa):
-        self.mssv = mssv
-        self.hoTen = hoTen
-        self.maKhoa = maKhoa
-    def getMSSV(self):
-        return self.mssv
-    def setMSSV(self, mssv):
-        self.mssv = mssv
-    def getHoTen(self):
-        return self.hoTen
-    def setHoTen(self, hoTen):
-        self.hoTen = hoTen
-    def xuat(self):
-        print(self.mssv + "\t\t" + self.hoTen + "\t\t" + self.maKhoa)
+from bai4_classKhoa import Khoa
+from bai4_classSV import SinhVien
 
 DSSV = []
 DSSV.append(SinhVien("001", "Mai A", "01"))
