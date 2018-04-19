@@ -36,6 +36,7 @@ $ cd ..
 $ cd class6
 $ mkdir ceh
 $ cd ../../
+$tree
 
 #4
 $ cp thegioimang.txt athena/class1

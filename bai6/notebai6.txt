@@ -114,6 +114,40 @@ tar -cvf linux2002.tar.gz $HOME/linux2002
 #$ tr "a*" "1b" < filename​
 #Ví dụ sau sẽ chuyển đổi chữ thường thành chữ hoa:
 #$ tr "[a-z]" "[A-Z]" < filename​
+#..............
+
+#wc: đếm số dòng, số từ hay số byte của 1 tập tin và in kết quả này ra màn hình.
+#.................
+
+#dirname: hiện thị thư mục gốc
+#dirname {path1/path2/...}
+#................
+
+#whatis: giải thích ngắn về dòng lệnh
+#................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
